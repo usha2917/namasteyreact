@@ -2,9 +2,11 @@
   "name": "startreact",
   "version": "1.0.0",
   "description": "this is react by usha",
-  "main": "app.js",
+ 
   "scripts": {
-    "test": "test"
+    "start": "parcel index.html",
+    "build" :"parcel build index.html",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
